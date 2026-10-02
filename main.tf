@@ -7,11 +7,11 @@ terraform {
   required_providers {
     vsphere = {
       source  = "vmware/vsphere"
-      version = "~> 2.14.0"
+      version = "~> 2.0"
     }
     null = {
       source  = "hashicorp/null"
-      version = "3.2.4"
+      version = "3.0"
     }
   }
 }
